@@ -28,12 +28,12 @@ namespace ClaimingAPI.Controllers
 			}
 		}
 
-		// GET api/<MessagesController>/5
-		[HttpGet("{id}")]
-		public string Get(int id)
-		{
-			return "value";
-		}
+		//// GET api/<MessagesController>/5
+		//[HttpGet("{id}")]
+		//public string Get(int id)
+		//{
+		//	return "value";
+		//}
 
 		// POST api/<MessagesController>
 		[HttpPost]
