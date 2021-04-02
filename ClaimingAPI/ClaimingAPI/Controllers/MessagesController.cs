@@ -48,8 +48,16 @@ namespace ClaimingAPI.Controllers
 
 			using (MailingServiceDbContext serviceDbContext = new MailingServiceDbContext())
 			{
-				serviceDbContext.Messages.Add(message);
-				await serviceDbContext.SaveChangesAsync();
+				try
+				{
+					serviceDbContext.Messages.Add(message);
+					await serviceDbContext.SaveChangesAsync();
+
+				}
+				catch (Exception ex) 
+				{ 
+
+				}
 
 				return Ok(message);
 			}
