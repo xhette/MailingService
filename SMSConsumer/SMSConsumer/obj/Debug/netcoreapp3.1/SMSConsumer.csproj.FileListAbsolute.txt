@@ -1,0 +1,16 @@
+D:\stud\_ДИМПЛОМ\MailingService\SMSConsumer\SMSConsumer\obj\Debug\netcoreapp3.1\SMSConsumer.csprojAssemblyReference.cache
+D:\stud\_ДИМПЛОМ\MailingService\SMSConsumer\SMSConsumer\obj\Debug\netcoreapp3.1\SMSConsumer.AssemblyInfoInputs.cache
+D:\stud\_ДИМПЛОМ\MailingService\SMSConsumer\SMSConsumer\obj\Debug\netcoreapp3.1\SMSConsumer.AssemblyInfo.cs
+D:\stud\_ДИМПЛОМ\MailingService\SMSConsumer\SMSConsumer\obj\Debug\netcoreapp3.1\SMSConsumer.csproj.CoreCompileInputs.cache
+D:\stud\_ДИМПЛОМ\MailingService\SMSConsumer\SMSConsumer\bin\Debug\netcoreapp3.1\SMSConsumer.exe
+D:\stud\_ДИМПЛОМ\MailingService\SMSConsumer\SMSConsumer\bin\Debug\netcoreapp3.1\SMSConsumer.deps.json
+D:\stud\_ДИМПЛОМ\MailingService\SMSConsumer\SMSConsumer\bin\Debug\netcoreapp3.1\SMSConsumer.runtimeconfig.json
+D:\stud\_ДИМПЛОМ\MailingService\SMSConsumer\SMSConsumer\bin\Debug\netcoreapp3.1\SMSConsumer.runtimeconfig.dev.json
+D:\stud\_ДИМПЛОМ\MailingService\SMSConsumer\SMSConsumer\bin\Debug\netcoreapp3.1\SMSConsumer.dll
+D:\stud\_ДИМПЛОМ\MailingService\SMSConsumer\SMSConsumer\bin\Debug\netcoreapp3.1\SMSConsumer.pdb
+D:\stud\_ДИМПЛОМ\MailingService\SMSConsumer\SMSConsumer\bin\Debug\netcoreapp3.1\RabbitMQ.Client.dll
+D:\stud\_ДИМПЛОМ\MailingService\SMSConsumer\SMSConsumer\bin\Debug\netcoreapp3.1\System.Threading.Channels.dll
+D:\stud\_ДИМПЛОМ\MailingService\SMSConsumer\SMSConsumer\obj\Debug\netcoreapp3.1\SMSConsumer.csproj.CopyComplete
+D:\stud\_ДИМПЛОМ\MailingService\SMSConsumer\SMSConsumer\obj\Debug\netcoreapp3.1\SMSConsumer.dll
+D:\stud\_ДИМПЛОМ\MailingService\SMSConsumer\SMSConsumer\obj\Debug\netcoreapp3.1\SMSConsumer.pdb
+D:\stud\_ДИМПЛОМ\MailingService\SMSConsumer\SMSConsumer\obj\Debug\netcoreapp3.1\SMSConsumer.genruntimeconfig.cache

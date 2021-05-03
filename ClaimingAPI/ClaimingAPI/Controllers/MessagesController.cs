@@ -53,13 +53,12 @@ namespace ClaimingAPI.Controllers
 					serviceDbContext.Messages.Add(message);
 					await serviceDbContext.SaveChangesAsync();
 
+					return Ok(message);
 				}
 				catch (Exception ex) 
-				{ 
-
+				{
+					return BadRequest(ex.Message);
 				}
-
-				return Ok(message);
 			}
 		}
 

@@ -29,3 +29,9 @@ D:\stud\_ДИМПЛОМ\MailingService\DatabaseListener\DatabaseListener\obj\Deb
 D:\stud\_ДИМПЛОМ\MailingService\DatabaseListener\DatabaseListener\obj\Debug\netcoreapp3.1\DatabaseListener.dll
 D:\stud\_ДИМПЛОМ\MailingService\DatabaseListener\DatabaseListener\obj\Debug\netcoreapp3.1\DatabaseListener.pdb
 D:\stud\_ДИМПЛОМ\MailingService\DatabaseListener\DatabaseListener\obj\Debug\netcoreapp3.1\DatabaseListener.genruntimeconfig.cache
+D:\stud\_ДИМПЛОМ\MailingService\DatabaseListener\DatabaseListener\bin\Debug\netcoreapp3.1\EventBus.Base.Standard.dll
+D:\stud\_ДИМПЛОМ\MailingService\DatabaseListener\DatabaseListener\bin\Debug\netcoreapp3.1\EventBus.RabbitMQ.Standard.dll
+D:\stud\_ДИМПЛОМ\MailingService\DatabaseListener\DatabaseListener\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\stud\_ДИМПЛОМ\MailingService\DatabaseListener\DatabaseListener\bin\Debug\netcoreapp3.1\Polly.dll
+D:\stud\_ДИМПЛОМ\MailingService\DatabaseListener\DatabaseListener\bin\Debug\netcoreapp3.1\RabbitMQ.Client.dll
+D:\stud\_ДИМПЛОМ\MailingService\DatabaseListener\DatabaseListener\bin\Debug\netcoreapp3.1\System.Threading.Channels.dll
