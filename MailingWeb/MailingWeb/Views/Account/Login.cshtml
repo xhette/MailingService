@@ -1,0 +1,47 @@
+﻿
+@model MailingWeb.Models.ViewModels.LoginViewModel
+
+@{
+    ViewData["Title"] = "Вход";
+}
+<div class="row d-flex justify-content-center" style="margin: 50px 0">
+    <div class="col-md-4">
+        <section>
+            <form method="post" asp-controller="Account" asp-action="Login">
+                <h4>Войти в аккаунт</h4>
+                <hr />
+                <div asp-validation-summary="All" class="text-danger"></div>
+                <div class="form-group">
+                    <label class="sr-only" asp-for="Login"></label>
+                    <input asp-for="Login" class="form-control" placeholder="Логин" />
+                    <span asp-validation-for="Login" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label class="sr-only" asp-for="Password"></label>
+                    <input asp-for="Password" class="form-control" placeholder="Пароль" />
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <div class="checkbox">
+                        <label asp-for="RememberMe">
+                            <input asp-for="RememberMe" />
+                            @Html.DisplayNameFor(m => m.RememberMe)
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-lg btn-primary btn-block">Войти</button>
+                </div>
+                <div class="form-group text-center">
+                    <p>
+                        <a asp-controller="Account" asp-action="Register" asp-route-returnUrl="@Model.ReturnUrl">Зарегистрироваться</a>
+                    </p>
+                </div>
+            </form>
+        </section>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

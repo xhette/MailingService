@@ -17,7 +17,7 @@ namespace DatabaseListener.Classes
 
 		private string _exchangeName;
 
-		public QueueProducer( string exchangeName) 
+		public QueueProducer(string exchangeName) 
 		{
 			ConnectionFactory factory = new ConnectionFactory
 			{
@@ -38,8 +38,6 @@ namespace DatabaseListener.Classes
 
 			IModel model = _rabbitConnection.CreateModel();
 			model.ExchangeDeclare(_exchangeName, ExchangeType.Topic, true);
-			//model.QueueDeclare(_queueName, true, false, false, null);
-			//model.QueueBind(_queueName, _exchangeName, routingKey, null);
 
 			byte[] messageBodyBytes = Encoding.UTF8.GetBytes(jsonString);
 

@@ -1,0 +1,13 @@
+D:\stud\_ДИМПЛОМ\MailingService\MailingWeb\MailingWeb.ApiClient\bin\Debug\netcoreapp3.1\ApiClient.exe
+D:\stud\_ДИМПЛОМ\MailingService\MailingWeb\MailingWeb.ApiClient\bin\Debug\netcoreapp3.1\ApiClient.deps.json
+D:\stud\_ДИМПЛОМ\MailingService\MailingWeb\MailingWeb.ApiClient\bin\Debug\netcoreapp3.1\ApiClient.runtimeconfig.json
+D:\stud\_ДИМПЛОМ\MailingService\MailingWeb\MailingWeb.ApiClient\bin\Debug\netcoreapp3.1\ApiClient.runtimeconfig.dev.json
+D:\stud\_ДИМПЛОМ\MailingService\MailingWeb\MailingWeb.ApiClient\bin\Debug\netcoreapp3.1\ApiClient.dll
+D:\stud\_ДИМПЛОМ\MailingService\MailingWeb\MailingWeb.ApiClient\bin\Debug\netcoreapp3.1\ApiClient.pdb
+D:\stud\_ДИМПЛОМ\MailingService\MailingWeb\MailingWeb.ApiClient\obj\Debug\netcoreapp3.1\ApiClient.csprojAssemblyReference.cache
+D:\stud\_ДИМПЛОМ\MailingService\MailingWeb\MailingWeb.ApiClient\obj\Debug\netcoreapp3.1\ApiClient.AssemblyInfoInputs.cache
+D:\stud\_ДИМПЛОМ\MailingService\MailingWeb\MailingWeb.ApiClient\obj\Debug\netcoreapp3.1\ApiClient.AssemblyInfo.cs
+D:\stud\_ДИМПЛОМ\MailingService\MailingWeb\MailingWeb.ApiClient\obj\Debug\netcoreapp3.1\ApiClient.csproj.CoreCompileInputs.cache
+D:\stud\_ДИМПЛОМ\MailingService\MailingWeb\MailingWeb.ApiClient\obj\Debug\netcoreapp3.1\ApiClient.dll
+D:\stud\_ДИМПЛОМ\MailingService\MailingWeb\MailingWeb.ApiClient\obj\Debug\netcoreapp3.1\ApiClient.pdb
+D:\stud\_ДИМПЛОМ\MailingService\MailingWeb\MailingWeb.ApiClient\obj\Debug\netcoreapp3.1\ApiClient.genruntimeconfig.cache

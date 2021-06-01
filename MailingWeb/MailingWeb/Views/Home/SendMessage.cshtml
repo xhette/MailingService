@@ -1,0 +1,119 @@
+﻿@{
+    ViewData["Title"] = "Отправить сообщение";
+}
+@model MailingWeb.Models.ViewModels.SendMessageModel
+
+<div class="row d-flex justify-content-center" style="margin: 50px 0">
+    <div class="col-md-4">
+        <h4>
+            Отправка сообщений
+        </h4>
+        <hr />
+        <form method="post" asp-controller="Home" asp-action="SendMessage" id="send-message-form">
+            <div asp-validation-summary="All" class="text-danger"></div>
+
+            <div class="form-group">
+                <label class="sr-only" asp-for="SelectedPorts"></label>
+                <input asp-for="SelectedPorts" type="hidden" name="ports-checked-values" />
+                <span asp-validation-for="SelectedPorts" class="text-danger"></span>
+
+                @foreach (var port in Model.Ports)
+                {
+                    <div class="port-check-box form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="@("inlineCheckbox" + port.Id)" value="@port.Id">
+                        <label class="form-check-label" for="@("inlineCheckbox" + port.Id)">@port.Name</label>
+                    </div>
+                }
+            </div>
+            <div class="form-group">
+                <label class="sr-only" asp-for="SelectedStudents"></label>
+                <input asp-for="SelectedStudents" type="hidden" name="students-selected-values" />
+
+                <select name="student-list" id="student-list" class="ui-list-multiple form-control" multiple="multiple" asp-items="Model.Students"></select>
+                <span asp-validation-for="SelectedStudents" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="sr-only" asp-for="TemplateId"></label>
+                <select class="form-control" asp-for="TemplateId" asp-items="Model.Types" name="select-message-template"></select>
+                <span asp-validation-for="TemplateId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <button type="button" id="submit-send-message" class="btn btn-primary btn-block">Отправить</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
+
+<script type="text/javascript">
+
+    $(document).ready(function () {
+        $.validator.setDefaults({ ignore: null });
+
+    $('.ui-list-multiple').select2({
+           language: 'ru'
+      });
+
+    $(document).on('change', "select[name='student-list']",
+    function() {
+        var me = $(this);
+        var selectedStudents = JSON.stringify(me.select2("val"));
+        $('[name=students-selected-values]').val(selectedStudents);
+
+        console.log($('[name=students-selected-values]').val());
+    });
+
+    $('.port-check-box').change(function(){
+    var values = [],
+    inputs = document.getElementsByTagName("input");
+
+    for (var i = inputs.length -1 ; i>= 0; i--)
+    if (inputs[i].type === "checkbox" && inputs[i].checked)
+          values.push(inputs[i].value);
+          var portsValues = JSON.stringify(values);
+
+          $('[name=ports-checked-values]').val(portsValues);
+          console.log($('[name=ports-checked-values]').val());
+    });
+
+        $('#submit-send-message').click(function () {
+            if ($("#send-message-form").valid()) {
+                $('#send-message-form').submit();
+            }
+            else {
+                return false;
+            }
+        });
+
+        $("#send-message-form").on("submit", function (event) {
+         event.preventDefault();
+        var selectedStudents = JSON.parse($('[name=students-selected-values]').val());
+        var selectedPorts = JSON.parse($('[name=ports-checked-values]').val());
+        var messageTemplate = $('[name=select-message-template]').val();
+
+        var responseModel = JSON.stringify({
+            'SelectedPorts' : selectedStudents,
+            'SelectedStudents' : selectedPorts,
+            'MessageTemplate': messageTemplate
+        });
+
+        console.log(responseModel);
+
+            $.ajax({
+                url: "@Url.Action("SendMessage", "Home")",
+                type: 'post',
+                contentType: 'application/json; charset=utf-8',
+                data: responseModel,
+                success: function () {
+                    alert("yes");
+                },
+                error: function (errMsg) {
+                    alert(errMsg);
+                }
+            })
+        });
+});
+</script>

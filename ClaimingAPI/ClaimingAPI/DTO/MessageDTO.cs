@@ -15,7 +15,7 @@ namespace ClaimingAPI.DTO
 
 		public int Status { get; set; }
 
-		public int MessageType { get; set; }
+		public int Type { get; set; }
 
 		public DateTime SendingDate { get; set; }
 
@@ -30,7 +30,7 @@ namespace ClaimingAPI.DTO
 				{
 					Id = dbMessage.MessageId,
 					ReceiverId = dbMessage.ReceiverId,
-					MessageType = dbMessage.MessageType,
+					Type = dbMessage.MessageType,
 					Port = dbMessage.Port,
 					SendingDate = dbMessage.SendingDate,
 					Status = dbMessage.Status
@@ -46,7 +46,7 @@ namespace ClaimingAPI.DTO
 				return new Message
 				{
 					MessageId = messageDTO.Id,
-					MessageType = messageDTO.MessageType,
+					MessageType = messageDTO.Type,
 					SendingDate = messageDTO.SendingDate,
 					Port = messageDTO.Port,
 					ReceiverId = messageDTO.ReceiverId,

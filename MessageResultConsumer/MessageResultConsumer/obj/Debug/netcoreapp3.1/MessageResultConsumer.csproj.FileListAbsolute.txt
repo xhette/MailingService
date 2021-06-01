@@ -1,0 +1,4 @@
+D:\stud\_ДИМПЛОМ\MailingService\MessageResultConsumer\MessageResultConsumer\obj\Debug\netcoreapp3.1\MessageResultConsumer.csprojAssemblyReference.cache
+D:\stud\_ДИМПЛОМ\MailingService\MessageResultConsumer\MessageResultConsumer\obj\Debug\netcoreapp3.1\MessageResultConsumer.AssemblyInfoInputs.cache
+D:\stud\_ДИМПЛОМ\MailingService\MessageResultConsumer\MessageResultConsumer\obj\Debug\netcoreapp3.1\MessageResultConsumer.AssemblyInfo.cs
+D:\stud\_ДИМПЛОМ\MailingService\MessageResultConsumer\MessageResultConsumer\obj\Debug\netcoreapp3.1\MessageResultConsumer.csproj.CoreCompileInputs.cache
