@@ -2,3 +2,15 @@ D:\stud\_ДИМПЛОМ\MailingService\MessageResultConsumer\MessageResultConsum
 D:\stud\_ДИМПЛОМ\MailingService\MessageResultConsumer\MessageResultConsumer\obj\Debug\netcoreapp3.1\MessageResultConsumer.AssemblyInfoInputs.cache
 D:\stud\_ДИМПЛОМ\MailingService\MessageResultConsumer\MessageResultConsumer\obj\Debug\netcoreapp3.1\MessageResultConsumer.AssemblyInfo.cs
 D:\stud\_ДИМПЛОМ\MailingService\MessageResultConsumer\MessageResultConsumer\obj\Debug\netcoreapp3.1\MessageResultConsumer.csproj.CoreCompileInputs.cache
+D:\stud\_ДИМПЛОМ\MailingService\MessageResultConsumer\MessageResultConsumer\bin\Debug\netcoreapp3.1\MessageResultConsumer.exe
+D:\stud\_ДИМПЛОМ\MailingService\MessageResultConsumer\MessageResultConsumer\bin\Debug\netcoreapp3.1\MessageResultConsumer.deps.json
+D:\stud\_ДИМПЛОМ\MailingService\MessageResultConsumer\MessageResultConsumer\bin\Debug\netcoreapp3.1\MessageResultConsumer.runtimeconfig.json
+D:\stud\_ДИМПЛОМ\MailingService\MessageResultConsumer\MessageResultConsumer\bin\Debug\netcoreapp3.1\MessageResultConsumer.runtimeconfig.dev.json
+D:\stud\_ДИМПЛОМ\MailingService\MessageResultConsumer\MessageResultConsumer\bin\Debug\netcoreapp3.1\MessageResultConsumer.dll
+D:\stud\_ДИМПЛОМ\MailingService\MessageResultConsumer\MessageResultConsumer\bin\Debug\netcoreapp3.1\MessageResultConsumer.pdb
+D:\stud\_ДИМПЛОМ\MailingService\MessageResultConsumer\MessageResultConsumer\bin\Debug\netcoreapp3.1\RabbitMQ.Client.dll
+D:\stud\_ДИМПЛОМ\MailingService\MessageResultConsumer\MessageResultConsumer\bin\Debug\netcoreapp3.1\System.Threading.Channels.dll
+D:\stud\_ДИМПЛОМ\MailingService\MessageResultConsumer\MessageResultConsumer\obj\Debug\netcoreapp3.1\MessageResultConsumer.csproj.CopyComplete
+D:\stud\_ДИМПЛОМ\MailingService\MessageResultConsumer\MessageResultConsumer\obj\Debug\netcoreapp3.1\MessageResultConsumer.dll
+D:\stud\_ДИМПЛОМ\MailingService\MessageResultConsumer\MessageResultConsumer\obj\Debug\netcoreapp3.1\MessageResultConsumer.pdb
+D:\stud\_ДИМПЛОМ\MailingService\MessageResultConsumer\MessageResultConsumer\obj\Debug\netcoreapp3.1\MessageResultConsumer.genruntimeconfig.cache

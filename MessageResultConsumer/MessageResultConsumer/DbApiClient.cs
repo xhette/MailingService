@@ -37,7 +37,7 @@ namespace MessageResultConsumer
 
 			var jsonObject = new StringContent(JsonSerializer.Serialize<MessageDTO>(message), Encoding.UTF8, "application/json");
 
-			_httpClient.PostAsync(urlParameters, jsonObject);
+			_httpClient.PutAsync(urlGetParameters, jsonObject);
 		}
 	}
 }

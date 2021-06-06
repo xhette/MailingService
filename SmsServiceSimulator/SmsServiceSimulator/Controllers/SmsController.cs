@@ -19,8 +19,8 @@ namespace SmsServiceSimulator.Controllers
 			"+79284567898", "+79184563214", "+79285496321", "+79638521474", "+79652356352", "+72568596365", "+79284731562"
 		};
 
-		[HttpGet("{id}")]
-		public string Get(int id)
+		[HttpGet]
+		public string Get()
 		{
 			var rng = new Random();
 			return Phones[rng.Next(Phones.Length)];

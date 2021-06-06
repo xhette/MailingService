@@ -16,21 +16,18 @@ namespace SMSConsumer
 
 		public ApiConsumer(string apiUri, string controllerName)
 		{
-			_httpClient = new HttpClient
-			{
-				BaseAddress = new Uri(apiUri)
-			};
-
+			_httpClient = new HttpClient();
+			_httpClient.BaseAddress = new Uri(apiUri);
 			_httpClient.DefaultRequestHeaders.Accept.Clear();
 			_httpClient.DefaultRequestHeaders.Accept.Add(
 				new MediaTypeWithQualityHeaderValue("application/json"));
 
-			_urlParameters = "api/" + controllerName;
+			_urlParameters = "/" + controllerName;
 		}
 
 		public string GetPhone(int id)
 		{
-			string urlParameters = _urlParameters + "/" + id;
+			string urlParameters = _urlParameters/* + "/" + id*/;
 
 			HttpResponseMessage response = _httpClient.GetAsync(urlParameters).Result;
 			if (response.IsSuccessStatusCode)
@@ -51,7 +48,9 @@ namespace SMSConsumer
 
 			if (response.IsSuccessStatusCode)
 			{
-				SMSResultEnum result = (SMSResultEnum)Enum.Parse(typeof(SMSResultEnum), response.Content.ReadAsStringAsync().Result, true);
+				int resultCode = 0;
+
+				SMSResultEnum result = int.TryParse(response.Content.ReadAsStringAsync().Result, out resultCode) ? (SMSResultEnum)resultCode : SMSResultEnum.Error;
 				return result;
 			}
 			else

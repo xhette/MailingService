@@ -94,6 +94,45 @@ namespace MailingWeb.Controllers
 		[HttpPost]
 		public IActionResult SendMessage([FromBody] SendMessageResponseModel responseModel)
 		{
+			List<int> selectedPorts = new List<int>();
+			List<int> selectedStudents = new List<int>();
+			int messageType = 0;
+
+			if (int.TryParse(responseModel.MessageTemplate, out messageType)){
+				for (int i = 0; i < responseModel.SelectedPorts.Length; i++)
+				{
+					int portId = 0;
+
+					if (int.TryParse(responseModel.SelectedPorts[i], out portId))
+					{
+						selectedPorts.Add(portId);
+					}
+				}
+
+				for (int i = 0; i < responseModel.SelectedStudents.Length; i++)
+				{
+					int studentId = 0;
+
+					if (int.TryParse(responseModel.SelectedStudents[i], out studentId))
+					{
+						selectedStudents.Add(studentId);
+					}
+				}
+
+				foreach (var port in selectedPorts)
+				{
+					foreach (var student in selectedStudents)
+					{
+						_mailingClient.PostMessage(new MessageDTO
+						{
+							Date = DateTime.Today,
+							Port = port,
+							ReceiverId = student,
+							Type = messageType
+						});
+					}
+				}
+			}
 			//MessageDTO message = new MessageDTO
 			//{
 			//	Date = model.Date,

@@ -11,6 +11,7 @@ namespace SMSConsumer
 	public class QueueConsumer
 	{
 		private IConnection _connection;
+		private MessageSender _messageSender;
 		string _exchangeName;
 		string _routingKey;
 
@@ -29,6 +30,7 @@ namespace SMSConsumer
 
 			_exchangeName = exchangeName;
 			_routingKey = routingKey;
+			_messageSender = new MessageSender("https://localhost:44397/", "Sms");
 		}
 
 		public async Task MessageWaiting()
@@ -50,7 +52,10 @@ namespace SMSConsumer
 
 				consumer.Received += async (o, a) =>
 				{
-					Console.WriteLine(Encoding.UTF8.GetString(a.Body.ToArray()));
+					string message = Encoding.UTF8.GetString(a.Body.ToArray());
+					_messageSender.SendMessage(message);
+
+					Console.WriteLine(message);
 					await Task.Yield();
 				};
 

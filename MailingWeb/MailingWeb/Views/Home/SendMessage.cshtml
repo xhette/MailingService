@@ -95,8 +95,8 @@
         var messageTemplate = $('[name=select-message-template]').val();
 
         var responseModel = JSON.stringify({
-            'SelectedPorts' : selectedStudents,
-            'SelectedStudents' : selectedPorts,
+            'SelectedPorts': selectedPorts, 
+            'SelectedStudents': selectedStudents,
             'MessageTemplate': messageTemplate
         });
 
@@ -108,7 +108,7 @@
                 contentType: 'application/json; charset=utf-8',
                 data: responseModel,
                 success: function () {
-                    alert("yes");
+                   
                 },
                 error: function (errMsg) {
                     alert(errMsg);
