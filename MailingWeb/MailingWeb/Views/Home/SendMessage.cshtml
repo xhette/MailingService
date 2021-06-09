@@ -107,8 +107,9 @@
                 type: 'post',
                 contentType: 'application/json; charset=utf-8',
                 data: responseModel,
-                success: function () {
-                   
+                success: function (response) {
+                    if (response.result == 'Redirect')
+                        window.location = response.url;
                 },
                 error: function (errMsg) {
                     alert(errMsg);

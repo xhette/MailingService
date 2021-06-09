@@ -98,7 +98,8 @@ namespace MailingWeb.Controllers
 			List<int> selectedStudents = new List<int>();
 			int messageType = 0;
 
-			if (int.TryParse(responseModel.MessageTemplate, out messageType)){
+			if (int.TryParse(responseModel.MessageTemplate, out messageType))
+			{
 				for (int i = 0; i < responseModel.SelectedPorts.Length; i++)
 				{
 					int portId = 0;
@@ -132,18 +133,12 @@ namespace MailingWeb.Controllers
 						});
 					}
 				}
+
+				return Json(new { result = "Redirect", url = Url.Action("Index", "Home") });
 			}
-			//MessageDTO message = new MessageDTO
-			//{
-			//	Date = model.Date,
-			//	Port = model.PortId,
-			//	ReceiverId = model.StudentId,
-			//	Type = model.TypeId
-			//};
 
-			//_mailingClient.PostMessage(message);
-
-			return RedirectToAction("Index", "Home");
+			ModelState.AddModelError("", "Ошибка при выборе шаблона");
+			return View(responseModel);
 		}
 
 		[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

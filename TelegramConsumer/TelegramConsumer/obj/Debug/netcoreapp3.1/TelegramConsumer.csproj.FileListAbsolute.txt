@@ -1,0 +1,16 @@
+D:\stud\_ДИМПЛОМ\MailingService\TelegramConsumer\TelegramConsumer\bin\Debug\netcoreapp3.1\TelegramConsumer.exe
+D:\stud\_ДИМПЛОМ\MailingService\TelegramConsumer\TelegramConsumer\bin\Debug\netcoreapp3.1\TelegramConsumer.deps.json
+D:\stud\_ДИМПЛОМ\MailingService\TelegramConsumer\TelegramConsumer\bin\Debug\netcoreapp3.1\TelegramConsumer.runtimeconfig.json
+D:\stud\_ДИМПЛОМ\MailingService\TelegramConsumer\TelegramConsumer\bin\Debug\netcoreapp3.1\TelegramConsumer.runtimeconfig.dev.json
+D:\stud\_ДИМПЛОМ\MailingService\TelegramConsumer\TelegramConsumer\bin\Debug\netcoreapp3.1\TelegramConsumer.dll
+D:\stud\_ДИМПЛОМ\MailingService\TelegramConsumer\TelegramConsumer\bin\Debug\netcoreapp3.1\TelegramConsumer.pdb
+D:\stud\_ДИМПЛОМ\MailingService\TelegramConsumer\TelegramConsumer\bin\Debug\netcoreapp3.1\RabbitMQ.Client.dll
+D:\stud\_ДИМПЛОМ\MailingService\TelegramConsumer\TelegramConsumer\bin\Debug\netcoreapp3.1\System.Threading.Channels.dll
+D:\stud\_ДИМПЛОМ\MailingService\TelegramConsumer\TelegramConsumer\obj\Debug\netcoreapp3.1\TelegramConsumer.csprojAssemblyReference.cache
+D:\stud\_ДИМПЛОМ\MailingService\TelegramConsumer\TelegramConsumer\obj\Debug\netcoreapp3.1\TelegramConsumer.AssemblyInfoInputs.cache
+D:\stud\_ДИМПЛОМ\MailingService\TelegramConsumer\TelegramConsumer\obj\Debug\netcoreapp3.1\TelegramConsumer.AssemblyInfo.cs
+D:\stud\_ДИМПЛОМ\MailingService\TelegramConsumer\TelegramConsumer\obj\Debug\netcoreapp3.1\TelegramConsumer.csproj.CoreCompileInputs.cache
+D:\stud\_ДИМПЛОМ\MailingService\TelegramConsumer\TelegramConsumer\obj\Debug\netcoreapp3.1\TelegramConsumer.csproj.CopyComplete
+D:\stud\_ДИМПЛОМ\MailingService\TelegramConsumer\TelegramConsumer\obj\Debug\netcoreapp3.1\TelegramConsumer.dll
+D:\stud\_ДИМПЛОМ\MailingService\TelegramConsumer\TelegramConsumer\obj\Debug\netcoreapp3.1\TelegramConsumer.pdb
+D:\stud\_ДИМПЛОМ\MailingService\TelegramConsumer\TelegramConsumer\obj\Debug\netcoreapp3.1\TelegramConsumer.genruntimeconfig.cache

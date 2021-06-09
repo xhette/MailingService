@@ -1,0 +1,16 @@
+D:\stud\_ДИМПЛОМ\MailingService\EmailConsumer\EmailConsumer\bin\Debug\netcoreapp3.1\EmailConsumer.exe
+D:\stud\_ДИМПЛОМ\MailingService\EmailConsumer\EmailConsumer\bin\Debug\netcoreapp3.1\EmailConsumer.deps.json
+D:\stud\_ДИМПЛОМ\MailingService\EmailConsumer\EmailConsumer\bin\Debug\netcoreapp3.1\EmailConsumer.runtimeconfig.json
+D:\stud\_ДИМПЛОМ\MailingService\EmailConsumer\EmailConsumer\bin\Debug\netcoreapp3.1\EmailConsumer.runtimeconfig.dev.json
+D:\stud\_ДИМПЛОМ\MailingService\EmailConsumer\EmailConsumer\bin\Debug\netcoreapp3.1\EmailConsumer.dll
+D:\stud\_ДИМПЛОМ\MailingService\EmailConsumer\EmailConsumer\bin\Debug\netcoreapp3.1\EmailConsumer.pdb
+D:\stud\_ДИМПЛОМ\MailingService\EmailConsumer\EmailConsumer\bin\Debug\netcoreapp3.1\RabbitMQ.Client.dll
+D:\stud\_ДИМПЛОМ\MailingService\EmailConsumer\EmailConsumer\bin\Debug\netcoreapp3.1\System.Threading.Channels.dll
+D:\stud\_ДИМПЛОМ\MailingService\EmailConsumer\EmailConsumer\obj\Debug\netcoreapp3.1\EmailConsumer.csprojAssemblyReference.cache
+D:\stud\_ДИМПЛОМ\MailingService\EmailConsumer\EmailConsumer\obj\Debug\netcoreapp3.1\EmailConsumer.AssemblyInfoInputs.cache
+D:\stud\_ДИМПЛОМ\MailingService\EmailConsumer\EmailConsumer\obj\Debug\netcoreapp3.1\EmailConsumer.AssemblyInfo.cs
+D:\stud\_ДИМПЛОМ\MailingService\EmailConsumer\EmailConsumer\obj\Debug\netcoreapp3.1\EmailConsumer.csproj.CoreCompileInputs.cache
+D:\stud\_ДИМПЛОМ\MailingService\EmailConsumer\EmailConsumer\obj\Debug\netcoreapp3.1\EmailConsumer.csproj.CopyComplete
+D:\stud\_ДИМПЛОМ\MailingService\EmailConsumer\EmailConsumer\obj\Debug\netcoreapp3.1\EmailConsumer.dll
+D:\stud\_ДИМПЛОМ\MailingService\EmailConsumer\EmailConsumer\obj\Debug\netcoreapp3.1\EmailConsumer.pdb
+D:\stud\_ДИМПЛОМ\MailingService\EmailConsumer\EmailConsumer\obj\Debug\netcoreapp3.1\EmailConsumer.genruntimeconfig.cache
