@@ -34,6 +34,8 @@ namespace DatabaseListener.Classes
 
 		public void SendMessageToQueue(string jsonString)
 		{
+			Console.WriteLine(jsonString);
+
 			string routingKey = String.Format("messages.{0}", JObject.Parse(jsonString)["port_name"].ToString().ToLower());
 
 			IModel model = _rabbitConnection.CreateModel();

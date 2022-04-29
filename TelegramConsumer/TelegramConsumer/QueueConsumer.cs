@@ -53,9 +53,10 @@ namespace TelegramConsumer
 				consumer.Received += async (o, a) =>
 				{
 					string message = Encoding.UTF8.GetString(a.Body.ToArray());
-					_messageSender.SendMessage(message);
 
 					Console.WriteLine(message);
+					_messageSender.SendMessage(message);
+
 					await Task.Yield();
 				};
 
